@@ -1,13 +1,14 @@
 package ua.academy.lgs;
 
 public class Robot {
-	public String name;
-	public String work;
+	private String name;
+	private String work;
 	
 	Robot(String name, String work){
 		this.name=name;
 		this.work=work;
 	}
+	
 	Robot(){
 		this.name="Robot";
 		this.work="я просто працюю";
